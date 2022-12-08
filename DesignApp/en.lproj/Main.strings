@@ -1,0 +1,93 @@
+
+/* Class = "UILabel"; text = "HELLO! WELCOME BACK"; ObjectID = "26c-aT-9Vo"; */
+"26c-aT-9Vo.text" = "HELLO! WELCOME BACK";
+
+/* Class = "UIButton"; normalTitle = "Add all to my cart"; ObjectID = "2Ea-pB-F2p"; */
+"2Ea-pB-F2p.normalTitle" = "Add all to my cart";
+
+/* Class = "UILabel"; text = "$ 95.00"; ObjectID = "2Mo-ef-6Xe"; */
+"2Mo-ef-6Xe.text" = "$ 95.00";
+
+/* Class = "UILabel"; text = "The best simple place where you discover most wonderful furnitures and make your home beautiful"; ObjectID = "66F-ej-Q8N"; */
+"66F-ej-Q8N.text" = "The best simple place where you discover most wonderful furnitures and make your home beautiful";
+
+/* Class = "UILabel"; text = "Bruno Pham"; ObjectID = "8KA-pJ-BjR"; */
+"8KA-pJ-BjR.text" = "Bruno Pham";
+
+/* Class = "UITextField"; placeholder = "Password"; ObjectID = "A3F-Zc-Yhu"; */
+"A3F-Zc-Yhu.placeholder" = "Password";
+
+/* Class = "UITextField"; placeholder = "Email"; ObjectID = "FZA-NH-pGc"; */
+"FZA-NH-pGc.placeholder" = "Email";
+
+/* Class = "UILabel"; text = "Forgot Password"; ObjectID = "FlR-mP-qed"; */
+"FlR-mP-qed.text" = "Forgot Password";
+
+/* Class = "UILabel"; text = "Password"; ObjectID = "G7P-bp-i0t"; */
+"G7P-bp-i0t.text" = "Password";
+
+/* Class = "UILabel"; text = "bruno203@gmail.com"; ObjectID = "JeI-Op-Shk"; */
+"JeI-Op-Shk.text" = "bruno203@gmail.com";
+
+/* Class = "UIButton"; normalTitle = "Log In"; ObjectID = "K5W-5K-sab"; */
+"K5W-5K-sab.normalTitle" = "Log In";
+
+/* Class = "UILabel"; text = "Name"; ObjectID = "Mv8-V0-vhq"; */
+"Mv8-V0-vhq.text" = "Name";
+
+/* Class = "UITextField"; placeholder = "Confirm Password"; ObjectID = "PO7-f4-5bB"; */
+"PO7-f4-5bB.placeholder" = "Confirm Password";
+
+/* Class = "UITextField"; placeholder = "Password"; ObjectID = "PwG-3O-atC"; */
+"PwG-3O-atC.placeholder" = "Password";
+
+/* Class = "UIButton"; normalTitle = "Check Out"; ObjectID = "QOa-ix-geT"; */
+"QOa-ix-geT.normalTitle" = "Check Out";
+
+/* Class = "UIButton"; normalTitle = "Get Started"; ObjectID = "Sp4-IS-LBC"; */
+"Sp4-IS-LBC.normalTitle" = "Get Started";
+
+/* Class = "UILabel"; text = "MAKE YOUR"; ObjectID = "Sum-Wk-WIL"; */
+"Sum-Wk-WIL.text" = "MAKE YOUR";
+
+/* Class = "UITextField"; placeholder = "Email"; ObjectID = "VBm-oN-G9O"; */
+"VBm-oN-G9O.placeholder" = "Email";
+
+/* Class = "UILabel"; text = "WELCOME"; ObjectID = "Vzp-IC-U2z"; */
+"Vzp-IC-U2z.text" = "WELCOME";
+
+/* Class = "UIButton"; normalTitle = "Sign UP"; ObjectID = "WUh-HZ-MuG"; */
+"WUh-HZ-MuG.normalTitle" = "Sign UP";
+
+/* Class = "UILabel"; text = "Email"; ObjectID = "akD-uv-CvH"; */
+"akD-uv-CvH.text" = "Email";
+
+/* Class = "UILabel"; text = "Password"; ObjectID = "eun-Bi-t5L"; */
+"eun-Bi-t5L.text" = "Password";
+
+/* Class = "UILabel"; text = "Email"; ObjectID = "eyB-Ot-4Gq"; */
+"eyB-Ot-4Gq.text" = "Email";
+
+/* Class = "UIButton"; normalTitle = "SIGN IN"; ObjectID = "h17-lM-Gmg"; */
+"h17-lM-Gmg.normalTitle" = "SIGN IN";
+
+/* Class = "UITextField"; placeholder = "Name"; ObjectID = "lPP-OT-idx"; */
+"lPP-OT-idx.placeholder" = "Name";
+
+/* Class = "UILabel"; text = "Total:"; ObjectID = "m2s-JG-Str"; */
+"m2s-JG-Str.text" = "Total:";
+
+/* Class = "UILabel"; text = "Password"; ObjectID = "nfv-J9-Uzc"; */
+"nfv-J9-Uzc.text" = "Password";
+
+/* Class = "UILabel"; text = "Already have account? "; ObjectID = "r89-Ka-LQU"; */
+"r89-Ka-LQU.text" = "Already have account? ";
+
+/* Class = "UITextField"; placeholder = "Enter your promo code"; ObjectID = "sJv-gK-8PD"; */
+"sJv-gK-8PD.placeholder" = "Enter your promo code";
+
+/* Class = "UIButton"; normalTitle = "SIGN UP"; ObjectID = "sdc-Ce-LhZ"; */
+"sdc-Ce-LhZ.normalTitle" = "SIGN UP";
+
+/* Class = "UILabel"; text = "HOME BEAUTIFUL"; ObjectID = "w6P-N6-Kyy"; */
+"w6P-N6-Kyy.text" = "HOME BEAUTIFUL";

@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="19529" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="19519"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <customFonts key="customFonts">
+        <array key="NunitoSans-Bold.ttf">
+            <string>NunitoSans-Bold</string>
+        </array>
+        <array key="NunitoSans-Regular.ttf">
+            <string>NunitoSans-Regular</string>
+        </array>
+    </customFonts>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell contentMode="scaleToFill" restorationIdentifier="ProfileTableViewCell" selectionStyle="none" indentationWidth="10" reuseIdentifier="ProfileTableViewCell" rowHeight="200" id="KGk-i7-Jjw" customClass="ProfileTableViewCell" customModule="DesignApp" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="396" height="200"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="KGk-i7-Jjw" id="H2p-sc-9uM">
+                <rect key="frame" x="0.0" y="0.0" width="396" height="200"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="FhP-jd-phx">
+                        <rect key="frame" x="20" y="0.0" width="356" height="185"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="JCb-3j-gNa">
+                                <rect key="frame" x="311" y="70" width="45" height="45"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="45" id="RHg-Hf-Jhv"/>
+                                    <constraint firstAttribute="width" constant="45" id="dgW-ez-S70"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="16"/>
+                                <color key="tintColor" red="0.14117647058823529" green="0.14117647058823529" blue="0.14117647058823529" alpha="1" colorSpace="calibratedRGB"/>
+                                <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
+                                <state key="normal" image="ic_Vector_bg"/>
+                            </button>
+                            <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" distribution="fillEqually" translatesAutoresizingMaskIntoConstraints="NO" id="soO-jD-rQQ">
+                                <rect key="frame" x="30" y="15" width="250" height="155"/>
+                                <subviews>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="rtx-po-2PN">
+                                        <rect key="frame" x="0.0" y="0.0" width="250" height="77.5"/>
+                                        <fontDescription key="fontDescription" name="NunitoSans-Bold" family="Nunito Sans" pointSize="18"/>
+                                        <color key="textColor" red="0.14117647058823529" green="0.14117647058823529" blue="0.14117647058823529" alpha="1" colorSpace="calibratedRGB"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="NKL-GY-EZn">
+                                        <rect key="frame" x="0.0" y="77.5" width="250" height="77.5"/>
+                                        <fontDescription key="fontDescription" name="NunitoSans-Regular" family="Nunito Sans" pointSize="14"/>
+                                        <color key="textColor" red="0.50196078431372548" green="0.50196078431372548" blue="0.50196078431372548" alpha="1" colorSpace="calibratedRGB"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                </subviews>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="250" id="E7m-T2-xIL"/>
+                                </constraints>
+                            </stackView>
+                        </subviews>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <constraints>
+                            <constraint firstItem="JCb-3j-gNa" firstAttribute="centerY" secondItem="FhP-jd-phx" secondAttribute="centerY" id="1b6-wd-BQB"/>
+                            <constraint firstAttribute="trailing" secondItem="JCb-3j-gNa" secondAttribute="trailing" id="1vk-56-0qX"/>
+                            <constraint firstItem="soO-jD-rQQ" firstAttribute="leading" secondItem="FhP-jd-phx" secondAttribute="leading" constant="30" id="SEC-2c-pOS"/>
+                            <constraint firstItem="soO-jD-rQQ" firstAttribute="top" secondItem="FhP-jd-phx" secondAttribute="top" constant="15" id="o4R-vA-c2K"/>
+                            <constraint firstAttribute="bottom" secondItem="soO-jD-rQQ" secondAttribute="bottom" constant="15" id="qX9-yF-Xi7"/>
+                        </constraints>
+                    </view>
+                </subviews>
+                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                <constraints>
+                    <constraint firstItem="FhP-jd-phx" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="top" id="FWK-9t-Nwa"/>
+                    <constraint firstAttribute="trailing" secondItem="FhP-jd-phx" secondAttribute="trailing" constant="20" id="FkZ-PN-FWU"/>
+                    <constraint firstAttribute="bottom" secondItem="FhP-jd-phx" secondAttribute="bottom" constant="15" id="IHQ-qK-o95"/>
+                    <constraint firstItem="FhP-jd-phx" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" constant="20" id="SlZ-7j-pHt"/>
+                </constraints>
+            </tableViewCellContentView>
+            <viewLayoutGuide key="safeArea" id="njF-e1-oar"/>
+            <connections>
+                <outlet property="orderDetails" destination="rtx-po-2PN" id="M7m-xS-x5L"/>
+                <outlet property="profileSetting" destination="NKL-GY-EZn" id="OPF-0o-xm0"/>
+                <outlet property="tableCellView" destination="FhP-jd-phx" id="klD-JD-4AG"/>
+            </connections>
+            <point key="canvasLocation" x="92.753623188405811" y="42.857142857142854"/>
+        </tableViewCell>
+    </objects>
+    <resources>
+        <image name="ic_Vector_bg" width="8" height="14"/>
+        <systemColor name="systemBackgroundColor">
+            <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+    </resources>
+</document>
